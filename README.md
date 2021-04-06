@@ -20,7 +20,7 @@ Our dataset includes 3 categories of herbal medicine, each with 4 different geog
 - The electronic nose(e-nose) we used was the one in the Biochemistry Microsensing Lab of State Key Laboratory of Industrial Control Technology, Institute of Cyber-Systems and Control, Zhejiang University.  
 - This e-nose has 16 TGS types metal oxide semi-conductive sensors that are sensitive to different types of gases. When we pumped in the volatile organic gas of each hermal medicine samples, the e-nose recorded the response signal of each sensors, which  was presented by vlotage changes.  
 - The sampling rate was 100HZ and the recording period was in 340s.  
-- More details can be access through our previous publications:
+- More details can be found in our previous publications:
 [Origin discrimination](https://ieeexplore.ieee.org/abstract/document/8854643/);  [Category discrimination](https://www.mdpi.com/1424-8220/18/9/2936)
 
 
