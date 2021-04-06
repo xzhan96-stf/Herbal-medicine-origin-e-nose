@@ -30,7 +30,7 @@ After data pre-processing like baseline value and invalid period removal etc., t
    - Each file contains the dataset of 160 samples in the shape of (1,16,31800). The dataset is stacked with origin sequence; For example, the dataset insists of origins A,B,C,D is stacked in the order of 40A-40B-40C-40D.  
 
 - `Dataset with extracted features`:The file named with 'BZ_dataset_public.mat','DG_dataset_public.mat', and 'GG_dataset_public.mat'  respectively represents the feature extracted dataset of Radix Angelicae, Angelica Sinensis,Radix Puerariae.  
-   - Each file contains labels and the following features: aggregated, long-line, down-sampling points.
+   - Each file contains labels and the following features: aggregated, long-line, down-sampling points, and Fast Fourier Transform
       - Aggregated(160,80): The aggregated method extracted 5 features from each sensor, which are: the maximum voltage, the integral value, and the median of the temporal data series,the maximum and minimum value of the exponential moving average.
       - Long-line(160,480): The longitudinal-information-in-a-line method extracted the same 5 features, but on the seperate 6 windows of the entire time series. Thus the features were expanded 6 times larger than aggregated method. 
       - Down-sampling points(160,16,318): The down sampling method was applied on the primitive sampling points with a sampling rate of 1HZ.
